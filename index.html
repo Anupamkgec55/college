@@ -9,8 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="information.css">
 </head>
 <body>
+    <script src="script.js"></script>
     <!--Header-->
     <div class="header">
         <h2 id="logo">Sympto.AI</h2>
@@ -32,10 +34,25 @@
             <h1>Thing is Your Health</h1>
             <h3>health is the crown on the well persons head that only the ill person can see</h3>
         </div>
-
-        <div class="disease_info">
-            div.four
-        </div>
     </div>
+
+<!-- information of Disease -->
+<div class="Disease_info">
+    <div class="Button_box">    
+        <button onclick="showPara(1)">Show Paragraph 1</button>
+        <button onclick="showPara(2)">Show Paragraph 2</button>
+        <button onclick="showPara(3)">Show Paragraph 3</button>
+        <button onclick="showPara(4)">Show Paragraph 4</button>
+    </div>
+
+    <div class="Disease_para">
+        <p id="paragraph1">This is the first paragraph. It's shown by default.</p>
+        <p id="paragraph2" class="hidden">This is the second paragraph.</p>
+        <p id="paragraph3" class="hidden">This is the third paragraph.</p>
+        <p id="paragraph4" class="hidden">This is the fourth paragraph.</p>
+        
+    </div>
+</div>
+
 </body>
 </html>

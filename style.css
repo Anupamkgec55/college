@@ -5,9 +5,10 @@
     height:60px;
     align-items: center;
     position: fixed;
+    top:0;
     left:0;
     right:0;
-    top:0;
+    z-index: 1000;
     background-color: white;
 }
 
@@ -35,5 +36,15 @@
 .info_text{
     text-align: center;
     padding: 200px;
-    color:rgb(151, 142, 240);
+    color:rgb(240, 178, 142);
+}
+
+.disease_info{
+    /* margin:; */
+    background-color: red;
+}
+
+.four_dis{
+    display: flex;
+    flex-direction: column;
 }
